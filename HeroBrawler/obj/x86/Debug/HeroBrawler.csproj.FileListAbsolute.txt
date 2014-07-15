@@ -10,3 +10,14 @@ c:\users\tucker\documents\visual studio 2013\Projects\HeroBrawler\HeroBrawler\ob
 c:\users\tucker\documents\visual studio 2013\Projects\HeroBrawler\HeroBrawler\obj\x86\Debug\HeroBrawler.exe
 c:\users\tucker\documents\visual studio 2013\Projects\HeroBrawler\HeroBrawler\obj\x86\Debug\HeroBrawler.pdb
 c:\users\tucker\documents\visual studio 2013\Projects\HeroBrawler\HeroBrawler\bin\WindowsGL\Debug\Content\CancelButton.png
+C:\Users\Tucker\Documents\Visual Studio 2013\Projects\HeroBrawler\HeroBrawlerBackUp\HeroBrawler\obj\x86\Debug\HeroBrawler.exe
+C:\Users\Tucker\Documents\Visual Studio 2013\Projects\HeroBrawler\HeroBrawlerBackUp\HeroBrawler\obj\x86\Debug\HeroBrawler.pdb
+C:\Users\Tucker\Documents\Visual Studio 2013\Projects\HeroBrawler\HeroBrawlerBackUp\HeroBrawler\bin\WindowsGL\Debug\Content\CancelButton.png
+C:\Users\Tucker\Documents\Visual Studio 2013\Projects\HeroBrawler\HeroBrawlerBackUp\HeroBrawler\bin\WindowsGL\Debug\Lidgren.Network.dll
+C:\Users\Tucker\Documents\Visual Studio 2013\Projects\HeroBrawler\HeroBrawlerBackUp\HeroBrawler\bin\WindowsGL\Debug\MonoGame.Framework.dll
+C:\Users\Tucker\Documents\Visual Studio 2013\Projects\HeroBrawler\HeroBrawlerBackUp\HeroBrawler\bin\WindowsGL\Debug\OpenTK.dll
+C:\Users\Tucker\Documents\Visual Studio 2013\Projects\HeroBrawler\HeroBrawlerBackUp\HeroBrawler\bin\WindowsGL\Debug\Tao.Sdl.dll
+C:\Users\Tucker\Documents\Visual Studio 2013\Projects\HeroBrawler\HeroBrawlerBackUp\HeroBrawler\bin\WindowsGL\Debug\FarseerPhysics MonoGame.pdb
+C:\Users\Tucker\Documents\Visual Studio 2013\Projects\HeroBrawler\HeroBrawlerBackUp\HeroBrawler\obj\x86\Debug\HeroBrawler.csprojResolveAssemblyReference.cache
+C:\Users\Tucker\Documents\Visual Studio 2013\Projects\HeroBrawler\HeroBrawlerBackUp\HeroBrawler\bin\WindowsGL\Debug\HeroBrawler.exe
+C:\Users\Tucker\Documents\Visual Studio 2013\Projects\HeroBrawler\HeroBrawlerBackUp\HeroBrawler\bin\WindowsGL\Debug\HeroBrawler.pdb
