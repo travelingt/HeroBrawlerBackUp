@@ -26,26 +26,28 @@ namespace HeroBrawler
     /// </summary>
     public class Game1 : Game
     {
+        //Singleton, AND YES THEY ARE GOOD IDEAS 
+        public static Game1 Instance;
+
+        //Graphics Varibles
         GraphicsDeviceManager graphics;
-        SpriteBatch spriteBatch;
-        World world;
-        Texture2D Show;
-        Body body;
-        CircleShape Cir;
-        
-        Fixture fixture;
+        public SpriteBatch spriteBatch;
+
+
+
+        Character TestChar;
+        Character SecChar;
+        //Physics Varibles
+        public World world;
+
         public Game1()
             : base()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             world = new World(new Vector2(0, 9.82f));
-            body = new Body(world);
-            body.BodyType = BodyType.Dynamic;
-            
+            Instance = this;
            
-            Cir = new CircleShape(.5f, 1);
-            fixture = body.CreateFixture(Cir);
         }
 
         /// <summary>
@@ -69,8 +71,8 @@ namespace HeroBrawler
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            Show = Content.Load<Texture2D>("CancelButton");
-            
+            TestChar = new Character(new Vector2());
+            SecChar = new Character(new Vector2(100,0));
             // TODO: use this.Content to load your game content here
         }
 
@@ -95,6 +97,7 @@ namespace HeroBrawler
 
 
             world.Step(.033f);
+            TestChar.Update();
             Console.WriteLine(world.BodyList.Count);
             // TODO: Add your update logic here
 
@@ -109,9 +112,8 @@ namespace HeroBrawler
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
             spriteBatch.Begin();
-            spriteBatch.Draw(Show, new Rectangle((int)body.Position.X, (int)body.Position.Y,Show.Width,Show.Height), Color.Red);
-            
-            Console.Write(Cir.Position.ToString() + "\n");
+            TestChar.Draw();
+            SecChar.Draw();
             spriteBatch.End();
              //TODO: Add your drawing code here
 
